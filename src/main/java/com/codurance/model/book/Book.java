@@ -12,4 +12,8 @@ public class Book {
         this.ISBN = ISBN;
         this.state = state;
     }
+
+    public void setState(BookState state) {
+        this.state = state;
+    }
 }
